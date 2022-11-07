@@ -54,4 +54,4 @@ function myAxios({ method = 'get', url, data, params, time, headers }) {
         })
     })
 
-}
+
