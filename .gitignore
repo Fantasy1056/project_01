@@ -1,0 +1,5 @@
+#忽略index.css
+index.css
+#忽略文件夹下的文件
+lib/
+
