@@ -1,7 +1,8 @@
 function myAxios({ method = 'get', url, data, params, time, headers }) {
 
     method = method.toLowerCase();
-//updata1
+    //updata1
+    //update2
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         if (params) {
@@ -54,4 +55,4 @@ function myAxios({ method = 'get', url, data, params, time, headers }) {
         })
     })
 
-
+}
