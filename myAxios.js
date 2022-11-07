@@ -1,6 +1,7 @@
 function myAxios({ method = 'get', url, data, params, time, headers }) {
 
     method = method.toLowerCase();
+//updata1
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         if (params) {
